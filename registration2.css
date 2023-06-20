@@ -1,57 +1,88 @@
 body {
+  /* Forces the fonts */
   font-family: Arial, sans-serif;
+  /* creates a background color */
   background-color: #f1f1f1;
+  /* removes the default margin and padding */
   margin: 0;
   padding: 0;
 }
 
 .registration-container {
+  /* width of container */
   width: 350px;
+  /* center align */
   margin: 100px auto;
+  /* background color */
   background-color: #fff;
+  /* Padding around the container */
   padding: 20px;
+  /* Rounded corners for the container */
   border-radius: 5px;
+  /* Shadow effect for the container */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
+  /* Center align the heading */
   text-align: center;
+  /* Margin at the bottom of the heading */
   margin-bottom: 20px;
+  /* Color of the heading */
   color: #333;
 }
 
 .form-group {
+  /* Margin at the bottom of each form group */
   margin-bottom: 15px;
 }
 
 label {
+  /* Display block style for labels */
   display: block;
+  /* Margin at the bottom of labels */
   margin-bottom: 5px;
+  /* Font weight for labels */
   font-weight: bold;
+  /* Color of labels */
   color: #555;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="password"] {
+  /* Width of the input fields */
   width: 100%;
+  /* Padding inside the input fields */
   padding: 10px;
+  /* Rounded corners for the input fields */
   border-radius: 4px;
+  /* Border style for the input fields */
   border: 1px solid #ccc;
+  /* Box sizing for the input fields */
   box-sizing: border-box;
 }
 
 input[type="submit"] {
+  /* Width of the submit button */
   width: 100%;
+  /* Padding inside the submit button */
   padding: 10px;
+  /* Rounded corners for the submit button */
   border-radius: 4px;
+  /* Background color for the submit button */
   background-color: #2d9cdb;
+  /* Text color for the submit button */
   color: #fff;
+  /* Font weight for the submit button */
   font-weight: bold;
+  /* No border for the submit button */
   border: none;
+  /* Cursor style for the submit button */
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
+  /* Background color on hover for the submit button */
   background-color: #0084d1;
 }
