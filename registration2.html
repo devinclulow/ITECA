@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Meta information which allows it to function on any device-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- This is the title of the webpage -->
     <title>Registration Page</title>
+    <!-- This pulls the css styling -->
     <link rel="stylesheet" type="text/css" href="registration2.css" />
   </head>
   <body>
+    <!-- div having the registration form -->
     <div class="registration-container">
+      <!-- Heading of the form -->
       <h2>Registration</h2>
+      <!-- The actual form -->
       <form action="registration2.php" method="post">
+        <!-- A form field for the username -->
         <div class="form-group">
           <label for="username">Username:</label>
           <input
@@ -21,6 +28,7 @@
           />
         </div>
 
+        <!-- a form field for the email -->
         <div class="form-group">
           <label for="email">Email:</label>
           <input
@@ -32,6 +40,7 @@
           />
         </div>
 
+        <!-- a form field for the password -->
         <div class="form-group">
           <label for="password">Password:</label>
           <input
@@ -43,6 +52,7 @@
           />
         </div>
 
+        <!-- form field for confirming the password -->
         <div class="form-group">
           <label for="confirm-password">Confirm Password:</label>
           <input
@@ -54,11 +64,11 @@
           />
         </div>
 
+        <!-- button to take you to the registration form -->
         <div class="form-group">
           <input
             type="submit"
-            value="Register
-(You will be redirected to the login page)"
+            value="Register (You will be redirected to the login page)"
           />
         </div>
       </form>
