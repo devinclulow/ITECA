@@ -1,19 +1,23 @@
+/* Reset CSS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Header Styles */
 header {
   background-color: #333;
   color: #fff;
   padding: 10px;
 }
 
+/* Body Styles */
 body {
   font-family: Arial, sans-serif;
 }
 
+/* Navigation Styles */
 nav {
   background-color: #f4f4f4;
   padding: 10px;
@@ -36,6 +40,7 @@ nav ul li a {
   padding: 5px;
 }
 
+/* Heading Styles */
 h2 {
   text-align: center;
   font-weight: normal;
@@ -48,10 +53,12 @@ h3 {
   color: #f4f4f4ff;
 }
 
+/* Selected Item Styles */
 .selected {
   font-weight: bold;
 }
 
+/* Pizza Menu Styles */
 .pizzamenu {
   margin-bottom: 20px;
   border: 1px solid black;
@@ -60,6 +67,7 @@ h3 {
   background-size: cover;
 }
 
+/* Sushi Menu Styles */
 .sushimenu {
   margin-bottom: 20px;
   border: 1px solid black;
@@ -68,6 +76,7 @@ h3 {
   background-size: cover;
 }
 
+/* Product Section Styles */
 section#products {
   display: flex;
   flex-wrap: wrap;
@@ -75,11 +84,13 @@ section#products {
   padding: 20px;
 }
 
+/* Food Type Styles */
 .foodtype {
   padding-top: 15px;
   padding-left: 15px;
 }
 
+/* Product Styles */
 .product {
   margin: 10px;
   padding: 20px;
@@ -90,6 +101,7 @@ section#products {
   background-color: #f4f4f4;
 }
 
+/* Button Styles */
 .btn {
   text-align: center;
   vertical-align: middle;
@@ -137,6 +149,7 @@ section#products {
   background-color: #2d9cdb;
 }
 
+/* Shop Item Styles */
 .shop-item {
   margin: 30px;
 }
@@ -172,6 +185,7 @@ section#products {
   justify-content: space-around;
 }
 
+/* Cart Styles */
 .cart-header {
   font-weight: bold;
   font-size: 1.25em;
@@ -274,6 +288,7 @@ section#products {
   font-size: 1.75em;
 }
 
+/* Footer Styles */
 footer {
   position: fixed;
   bottom: 0;
