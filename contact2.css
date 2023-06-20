@@ -3,71 +3,84 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Apply a global reset to remove margins and paddings, and ensure box sizing is border-box */
 
 header {
   background-color: #333;
   color: #fff;
   padding: 10px;
 }
+/* Style the header element with a dark background color, white text, and padding */
 
 body {
   font-family: Arial, sans-serif;
 }
+/* Set the font family for the entire body to Arial or a fallback sans-serif font */
 
 nav {
   background-color: #f4f4f4;
   padding: 10px;
 }
+/* Style the navigation element with a light background color and padding */
 
 nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+/* Remove the default list style, padding, and margin from the unordered list inside the navigation */
 
 nav ul li {
   display: inline-block;
   margin-right: 10px;
 }
+/* Display the list items horizontally and add a right margin between them */
 
 nav ul li a {
   text-decoration: none;
   color: #333;
   padding: 5px;
 }
+/* Remove the underline from anchor links, set the color to #333, and add padding */
 
 .selected {
   font-weight: bold;
 }
+/* Style the selected item by making the font bold */
 
 .aboutbanner {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+/* Center align the image with automatic left and right margins */
 
 .content {
   display: flex;
   padding: 5px;
   justify-content: center;
 }
+/* Use flexbox to create a centered content section and add some padding */
 
 .contactdet {
   padding: 50px;
   border: 1px solid black;
 }
+/* Add padding and a black border to the contact details section */
 
 .location {
   padding: 25px;
   text-align: center;
   font-size: x-large;
 }
+/* Style the location section with padding, center-aligned text, and increased font size */
 
 .about {
   padding: 25px;
   text-align: center;
   font-size: x-large;
 }
+/* Style the about section with padding, center-aligned text, and increased font size */
 
 footer {
   position: fixed;
@@ -77,3 +90,4 @@ footer {
   color: #fff;
   text-align: center;
 }
+/* Create a fixed footer that sticks to the bottom of the page, with a dark background color, white text, and centered alignment */
