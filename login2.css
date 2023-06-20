@@ -1,71 +1,71 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f1f1f1;
-  margin: 0;
-  padding: 0;
+  background-color: #f1f1f1; /* Set the background color of the body */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
 }
 
 .login-container {
   width: 300px;
-  margin: 100px auto;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 100px auto; /* Center the login container horizontally with a top margin of 100px */
+  background-color: #fff; /* Set the background color of the login container */
+  padding: 20px; /* Add padding inside the login container */
+  border-radius: 5px; /* Add rounded corners to the login container */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a box shadow to create a visual effect */
 }
 
 h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #333;
+  text-align: center; /* Center align the heading text */
+  margin-bottom: 20px; /* Add bottom margin to the heading */
+  color: #333; /* Set the text color of the heading */
 }
 
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 15px; /* Add bottom margin to form groups */
 }
 
 label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-  color: #555;
+  display: block; /* Display labels as block elements to occupy full width */
+  margin-bottom: 5px; /* Add bottom margin to labels */
+  font-weight: bold; /* Make labels bold */
+  color: #555; /* Set the text color of labels */
 }
 
 input[type="text"],
 input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+  width: 100%; /* Make text and password inputs occupy full width */
+  padding: 10px; /* Add padding to the inputs */
+  border-radius: 4px; /* Add rounded corners to the inputs */
+  border: 1px solid #ccc; /* Add a border to the inputs */
+  box-sizing: border-box; /* Include the border in the total width of the inputs */
 }
 
 .btndesign {
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  background-color: #2d9cdb;
-  color: #fff;
-  font-weight: bold;
-  border: none;
-  cursor: pointer;
+  width: 100%; /* Make the button occupy full width */
+  padding: 10px; /* Add padding to the button */
+  border-radius: 4px; /* Add rounded corners to the button */
+  background-color: #2d9cdb; /* Set the background color of the button */
+  color: #fff; /* Set the text color of the button */
+  font-weight: bold; /* Make the button text bold */
+  border: none; /* Remove the border of the button */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
 }
 
 .btndesign:hover {
-  background-color: #0084d1;
+  background-color: #0084d1; /* Change the background color of the button on hover */
 }
 
 input[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  background-color: #2d9cdb;
-  color: #fff;
-  font-weight: bold;
-  border: none;
-  cursor: pointer;
+  width: 100%; /* Make the submit button occupy full width */
+  padding: 10px; /* Add padding to the submit button */
+  border-radius: 4px; /* Add rounded corners to the submit button */
+  background-color: #2d9cdb; /* Set the background color of the submit button */
+  color: #fff; /* Set the text color of the submit button */
+  font-weight: bold; /* Make the submit button text bold */
+  border: none; /* Remove the border of the submit button */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
 }
 
 input[type="submit"]:hover {
-  background-color: #0084d1;
+  background-color: #0084d1; /* Change the background color of the submit button on hover */
 }
